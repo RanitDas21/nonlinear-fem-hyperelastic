@@ -39,9 +39,6 @@ elements. This project:
 - The **6-node triangular** element is intrinsically much less prone to volumetric locking, with little
   difference between full and reduced integration.
 
-See the [report](report/report.pdf) for the full derivation, validation, stress contour plots, and
-discussion.
-
 ## Repository Structure
 
 ```
@@ -57,10 +54,6 @@ discussion.
 ├── Validation_CooksMembrane/          # Cook's membrane benchmark (3NT/4NR/6NT, TL & UL formulations)
 │   └── Reference_article_for_validating_results.pdf   # Brink & Stein (1996)
 ├── Tapp_vs_Displacement/              # Combined load–displacement comparison plot (all 8 cases)
-├── report/
-│   ├── report.tex                     # LaTeX source of the full project report
-│   ├── report.pdf                     # Compiled report
-│   └── figs/                          # Figures used in the report
 └── README.md
 ```
 
@@ -114,13 +107,6 @@ run_solid_4NR_full   % or: run('run_solid_4NR_full.m')
 
 This reads the mesh files in that folder, runs the load-stepped Newton–Raphson solution, and produces
 the stress contour and load–displacement plots. Requires MATLAB (no additional toolboxes).
-
-## Building the Report
-
-```bash
-cd report
-pdflatex report.tex
-pdflatex report.tex   # run twice for cross-references / table of contents
 ```
 
 ## Validation
