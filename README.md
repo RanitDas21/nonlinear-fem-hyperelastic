@@ -7,8 +7,6 @@ elastomeric specimens, using 4-node quadrilateral and 6-node triangular elements
 selective-reduced Gauss integration, and is validated against the classical **Cook's membrane**
 benchmark.
 
-📄 **Full report:** [`report/report.pdf`](report/report.pdf) (built from [`report/report.tex`](report/report.tex))
-
 ---
 
 ## Overview
