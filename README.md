@@ -132,10 +132,6 @@ formulations and 3-, 4-, and 6-node elements against the mixed finite-element re
 > U. Brink and E. Stein, "On some mixed finite element methods for incompressible and nearly
 > incompressible finite elasticity," *Computational Mechanics*, vol. 19, pp. 105–119, 1996.
 
-## Course
-
-This project was completed as part of **ME676: Nonlinear Finite Element Methods**.
-
 ## License
 
 This project is released under the MIT License (see `LICENSE`).
