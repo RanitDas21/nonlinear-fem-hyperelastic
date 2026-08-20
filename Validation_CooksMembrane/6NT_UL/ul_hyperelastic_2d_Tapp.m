@@ -158,7 +158,7 @@ plotdata = plotop(ncoord,elconn,params,iparams,uval,'Y','sigma12') ;
 %
 figure
 %
-plot(Tappval,dispu2,'k-')
+plot(Tappval,dispu2,'r-')
 %
 %
 %
